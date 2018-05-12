@@ -1,9 +1,31 @@
-/*body {
+body {
 	background-image: url("header.jpg");
 	background-repeat: no-repeat;
-}*/
-
-h1 {
-	text-align: center;
+	background-size: 100%;
+	font-family: cursive;
+	color: white;
+}
+.navbar {
+	background-color: transparent !important;
+}
+.navbar-brand {
 	font-size: 50px;
+	margin-left: 500px;
+	color: white !important;
+}
+.nav-link {
+	color: white !important;
+}
+h2 {
+	text-align: center;
+}
+
+.carousel {
+	margin-top: 20px;
+}
+
+#footer {
+	position: fixed;
+	left: 20;
+	bottom: 0;
 }
